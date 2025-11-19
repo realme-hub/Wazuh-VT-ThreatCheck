@@ -1,0 +1,4 @@
+services:
+  generator:
+    image: wazuh/wazuh-cert-tool:4.7.0
+    command: ["./gen_cert"]
